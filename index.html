@@ -1,99 +1,138 @@
 <html lang="es">
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Pet Shop</title>
-        <link rel="shortcut icon" href="./imagenes/logo png.jpg">
-        <link rel="stylesheet" href="./css/bootstrap.min.css">
-        <link rel="stylesheet" href="./css/style.css">
+        <link rel="shortcut icon" href="./imagenes/logo png.jpg" />
+        <link rel="stylesheet" href="./css/bootstrap.min.css" />
+        <link rel="stylesheet" href="./css/style.css" />
     </head>
-        
+
     <body>
-    </header>
-            <div class="Menu navbar navbar-expand-lg navbar-light bg-light">
-                <div class="Menu">
-            <img src="./logo png.jpg" alt="logo de empresa">
-                <h1>PET SHOP</h1>
-            <nav>
-                <ul>
-                <li><a href="./paginas/inicio.html" class="nav-enlace">Inicio</a></li>
-                <li> <a href="./paginas/accesorios.html" class="nav-enlace">Accesorios</a></li>
-                <li><a href="./paginas/perros y gatos.html" class="nav-enlace">Perros y Gatos</a></li>
-                <li><a href="./paginas/nosotros.html" class="nav-enlace">Nosotros</a></li>
-                <li><a href="./paginas/contacto.html" class="nav-enlace">Contacto</a></li>
-                </ul>
-            </nav>
+        <header>
+            <div class="header__container">
+                <div class="header__logo">
+                    <a href="./index.html">
+                        <img src="./imagenes/LogoPngParaPortada.jpg" alt="CAU" />
+                    </a>
+                </div>
+                <div class="menu">
+                    <label for="menu">
+                        <img src="./Imagenes/menu.png" alt="menu" />
+                    </label>
+                </div>
+                <input type="checkbox" id="menu" class="input__menu" />
+
+                <div class="header__nav">
+                    <nav>
+                        <ul>
+                            <li><a href="./index.html" class="li__select" style="color: #181a14;">INICIO</a></li>
+                            <li><a href="./paginas/accesorios.html">Accesorios</a></li>
+                            <li><a href="./paginas/nosotros.html">Nosotros</a></li>
+                            <li><a href="./paginas/contacto.html">Contacto</a></li>
+                            <li><a href="./paginas/perros y gatos.html">Perros y Gatos</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-            <div class="buscador-enlace">
-            <input type="text" placeholder="buscador">
-            </div>
-    </header>
-            <img src="https://www.espaciomascota.com.uy/cache/thumbs/espacio-mascota-slider-web-1_2000x467-5-942305ca4af3105ca664bdc8f0e2321f.jpg" alt="Banner 1">
-            <img src="https://www.espaciomascota.com.uy/images/headers/header.webp" alt="Banner 2">
-                            
-            <footer>
-            <div class= "tarjetas__footer">
+        </header>
 
-                <div class="nosotros">
+        <main>
+            <section>
 
-                    <h2>NOSOTROS</h2> 
-
-                    <div>
-                        <p>Somos una empresa con más de 10 años en el mercado.Ofrecemos toda clase de servicios veterinarios para atender y satisfacer las necesidades de las mascotas, brindando una atención seria y responsable a través de un equipo altamente calificado.</p>
+                <div class="front__page">
+                        
+                    <div class="front__img">
+                        <img src="./imagenes/portada.jpg" alt="">                        
                     </div>
 
-                    <div>
-                        <a href="https://www.instagram.com/"><img src="./imagenes/instagram.png" alt=""></a>
-                        <a href="https://www.youtube.com/"><img src="./imagenes/youtube.png" alt=""></a>
-                        <a href="https://www.facebook.com/"><img src="./imagenes/facebook.png" alt=""></a>
-                        <a href="https://www.twitter.com/"><img src="./imagenes/twitter.png" alt=""></a>
+                    <div class="front__logo">                        
+                        <img src="./imagenes/logotipos-de-la-forma-pago-131493047.jpg" alt="">
+                        <h1>NUEVOS INGRESOS PARA MASCOTAS</h1>
                     </div>
-
+ 
                 </div>
 
+            </section>
 
+            <div class="video-a" data-aos="fade-up" data-aos-duration="3000">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/NL9diZEHLC0"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                >
+                </iframe>
+            </div>
+
+            <div class="video-b" data-aos="fade-up" data-aos-duration="3000">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/85m_7HYZEm4"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                >
+                </iframe>
+            </div>
+        </main>
+
+        <footer>
+            <div class="tarjetas__footer">
+                <div class="nosotros">
+                    <h2>NOSOTROS</h2>
+
+                    <div>
+                        <p>
+                            Somos una empresa con más de 10 años en el mercado.Ofrecemos toda clase de servicios veterinarios para atender y satisfacer las necesidades de las mascotas, brindando una atención seria y responsable a través de
+                            un equipo altamente calificado.
+                        </p>
+                    </div>
+
+                    <div>
+                        <a href="https://www.instagram.com/"><img src=".../imagenes/instagram.png" alt="" /></a>
+                        <a href="https://www.youtube.com/"><img src="../imagenes/youtube.png" alt="" /></a>
+                        <a href="https://www.facebook.com/"><img src="../imagenes/facebook.png" alt="" /></a>
+                        <a href="https://www.twitter.com/"><img src="../imagenes/twitter.png" alt="" /></a>
+                    </div>
+                </div>
 
                 <div class="ubicacion">
                     <h2>UBICACION</h2>
 
                     <div class="ubicacion__direccion">
-                        <img src="./imagenes/marcador-de-mapa.png" alt="">
+                        <img src="../imagenes/marcador-de-mapa.png" alt="" />
                         <p>San Jose, Uruguay</p>
                     </div>
 
                     <div class="ubicacion__telefono">
-                        <img src="./imagenes/circulo-de-telefono.png" alt="">
+                        <img src="../imagenes/circulo-de-telefono.png" alt="" />
                         <p>+57 321-3872648</p>
                     </div>
 
                     <div class="ubicacion__email">
-                        <img src="./imagenes/sobre.png" alt="">
-                        <p>programadorphp2017@gmail.com</p>
+                        <img src="../imagenes/sobre.png" alt="" />
+                        <p>estoesunaprueba@gmail.com@gmail.com</p>
                     </div>
-
                 </div>
-
-
-
 
                 <div class="contacto">
-
                     <h2>CONTACTO</h2>
-                    <input type="text">
-                    <input type="text">
+                    <input type="text" />
+                    <input type="text" />
                     <a href="https://www.youtube.com/"></a>
-
                 </div>
-
             </div>
 
             <p>© Todos los derechos están reservados a Sebastian Garcia</p>
-
-              
         </footer>
 
-                
+        <script src="./js/bootstrap.min.js"></script>
     </body>
-
 </html>
