@@ -953,7 +953,10 @@ h1{
 
 @media only screen and (max-width: 600px) {
 
-
+.form {
+        padding: 50px 30px;
+        width: 100%;
+}
 h4 {
     font-size: 15px;
     display: flex;
