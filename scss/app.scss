@@ -734,19 +734,6 @@ textarea {
 
 /*index mobile*/
 
-.menu{
-    width: 200px;
-    appearance: none;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-.menu img{
-    width: 90%;
-    height: 50%;
-    
-}
-
 .front__img img{        
     margin-left: -100%;
     max-width: 200%;
@@ -988,10 +975,3 @@ input:not([type="image" i]) {
     box-sizing: border-box;
 }
 }
-
-
-
-
-
-
-
