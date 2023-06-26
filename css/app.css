@@ -1,39 +1,17 @@
-* {
-  margin: 8;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
-}
+/* Error: Expected digit.
+ *     ,
+ * 139 |                                 .header__nav ul{
+ *     |                                  ^
+ *     '
+ *   scss\app.scss 139:10  root stylesheet */
 
-.titulo {
-  background-color: black;
-  color: white;
-  text-align: center;
-  width: 100%;
-  height: auto;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Expected digit.\a     \2577 \a 139 \2502                                  .header__nav ul{\d\a     \2502                                   ^\a     \2575 \a   scss\\app.scss 139:10  root stylesheet";
 }
-
-.parrafo {
-  background-color: white;
-  color: black;
-  text-align: left;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 40px;
-}
-
-.tarjetas {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-}
-
-.form {
-  padding: 50px 55px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-  border-radius: 20px;
-  text-align: center;
-  width: 100px;
-}
-
-/*# sourceMappingURL=app.css.map */
